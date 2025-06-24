@@ -1,0 +1,17 @@
+@host = https://localhost:7086
+
+### GET AboutUs
+GET {{host}}/api/BoardMember
+Accept: application/json
+### POST BoardMember
+POST https://localhost:7086/api/BoardMember
+Content-Type: application/json
+
+{
+  "fullName": "Sude Doðan",
+  "role": "Yönetim Kurulu Üyesi"
+}
+
+
+
+###
